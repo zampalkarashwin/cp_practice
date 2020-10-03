@@ -1,3 +1,5 @@
+#write a python program for 3n+1 problem 
+
 n=int(input("enter the number"))
 c=1
 
@@ -8,10 +10,11 @@ while n>1:
     else:
          n=3*n+1
          c=c+1
-         
+if(c%2==0):
+    print(c+1)
 print(c)        
 /*
 ***************** OUTPUT *********************
-2
+enter the number 2
 1
 */
